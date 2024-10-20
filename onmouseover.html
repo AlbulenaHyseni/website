@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On mouse over</title>
+</head>
+<body>
+    <img src="of_of.jpg" alt="foto" onclick="ndyshodriten()" height="200" width="200" id="foto">
+        <script>
+            function ndyshodriten(){
+                var imazhi =document.getElementById('foto');
+                if(imazhi.src.match("on")){
+                    imazhi.src="of_of.jpg";
+                }else{
+                    imazhi.src="on_on.jpg";
+                }
+
+            }
+
+    </script>
+</body>
+</html>
